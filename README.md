@@ -42,7 +42,7 @@ That's it. The widget fetches data from the SpeciesFYI API and renders with full
 | `data-speciesfyi` | entity, compare, glossary, guide, search, [tools] | required | Widget type |
 | `data-slug` | e.g. "species" | — | Entity slug from the SpeciesFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | modern, organic | modern | Widget design style |
+| `data-styleVariant` | modern, organic | modern | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Species..." | Search box placeholder |
 
@@ -66,10 +66,10 @@ That's it. The widget fetches data from the SpeciesFYI API and renders with full
 
 ```html
 <!-- Modern (default) — clean lines, rounded corners, accent gradients -->
-<div data-speciesfyi="entity" data-slug="species" data-style="modern"></div>
+<div data-speciesfyi="entity" data-slug="species" data-styleVariant="modern"></div>
 
 <!-- Organic — natural curves, earth-tone aesthetics, field-guide look -->
-<div data-speciesfyi="entity" data-slug="species" data-style="organic"></div>
+<div data-speciesfyi="entity" data-slug="species" data-styleVariant="organic"></div>
 ```
 
 ## Web Components (Custom Elements)
