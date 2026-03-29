@@ -1,21 +1,50 @@
 # SpeciesFYI Embed Widget
 
-> Embeddable SpeciesFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Species taxonomy, biodiversity. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/speciesfyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/speciesfyi-embed@1/dist/embed.min.js"></script>
+<div data-speciesfyi="iucn-badge" data-slug="example"></div>
+```
+
+## Available Widget Types (6)
+
+- entity: `data-speciesfyi="entity"`
+- glossary: `data-speciesfyi="glossary"`
+- guide: `data-speciesfyi="guide"`
+- compare: `data-speciesfyi="compare"`
+- search: `data-speciesfyi="search"`
+- iucn-badge (interactive): `data-speciesfyi="iucn-badge"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-speciesfyi="iucn-badge" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/speciesfyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://speciesfyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://speciesfyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://speciesfyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://speciesfyi.com
 - Widget docs: https://widget.speciesfyi.com
-- npm: https://www.npmjs.com/package/speciesfyi-embed
+- API documentation: https://speciesfyi.com/developers/
+- npm package: https://www.npmjs.com/package/speciesfyi-embed
 - GitHub: https://github.com/fyipedia/speciesfyi-embed
-- API: https://speciesfyi.com/developers/
 
-## Nature FYI Widget Family
+## Nature FYI Widget Network
 
 - [BirdFYI Widget](https://widget.birdfyi.com)
 - [FishFYI Widget](https://widget.fishfyi.com)
