@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# SpeciesFYI Embed Widget
+# Main site: https://speciesfyi.com
+# Widget docs: https://widget.speciesfyi.com
+# npm: https://www.npmjs.com/package/speciesfyi-embed
