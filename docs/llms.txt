@@ -1,0 +1,27 @@
+# SpeciesFYI Embed Widget
+
+> Embeddable SpeciesFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/speciesfyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://speciesfyi.com
+- Widget docs: https://widget.speciesfyi.com
+- npm: https://www.npmjs.com/package/speciesfyi-embed
+- GitHub: https://github.com/fyipedia/speciesfyi-embed
+- API: https://speciesfyi.com/developers/
+
+## Nature FYI Widget Family
+
+- [BirdFYI Widget](https://widget.birdfyi.com)
+- [FishFYI Widget](https://widget.fishfyi.com)
+- [PlantFYI Widget](https://widget.plantfyi.com)
+- [DinoFYI Widget](https://widget.dinofyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
